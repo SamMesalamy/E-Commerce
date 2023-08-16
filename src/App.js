@@ -14,9 +14,7 @@ import SearchBox from "./components/search";
 import { useEffect } from "react";
 
 function App() {
-  useEffect(() => {
-    document.title = "React Material UI - Home";
-  }, []);
+
   return (
     <ThemeProvider theme={theme}>
       <Container
@@ -33,7 +31,7 @@ function App() {
             <Promotions />
             <SearchBox />
             <Box display="flex" justifyContent="center" sx={{ p: 4 }}>
-              <Typography variant="h4">Our Products</Typography>
+              <Typography variant="h4">Latest Shoes</Typography>
             </Box>
             <Products />
             <Footer />

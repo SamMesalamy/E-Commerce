@@ -13,3 +13,6 @@ export default function ProductMeta({ product, matches }) {
       </ProductMetaWrapper>
     );
 }
+
+
+

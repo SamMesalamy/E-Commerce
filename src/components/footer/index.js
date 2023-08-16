@@ -58,11 +58,7 @@ export default function Footer() {
               </Typography>
             </ListItemText>
           
-            <ListItemText>
-              <Typography lineHeight={2} variant="caption2">
-                Privacy &amp; Policy
-              </Typography>
-            </ListItemText>
+          
             <ListItemText>
               <Typography lineHeight={2} variant="caption2">
                 Terms &amp; Conditions
@@ -100,7 +96,7 @@ export default function Footer() {
               sx={{ mt: 4, mb: 4 }}
               variant="contained"
             >
-              Subscribe
+              Register
             </Button>
           </Stack>
         </Grid>

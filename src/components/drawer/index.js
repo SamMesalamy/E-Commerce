@@ -30,7 +30,7 @@ export default function AppDrawer() {
           <CloseIcon
             sx={{
               fontSize: "2.5rem",
-              color: lighten(0.09, Colors.secondary),
+              color: lighten(0.09, Colors.white),
             }}
           />
         </DrawerCloseButton>
@@ -41,18 +41,17 @@ export default function AppDrawer() {
             <ListItemText>Home</ListItemText>
           </ListItemButton>
           <MiddleDivider />
-          <ListItemButton>
-            <ListItemText>Categories</ListItemText>
-          </ListItemButton>
-          <MiddleDivider />
-          <ListItemButton>
-            <ListItemText>Products</ListItemText>
-          </ListItemButton>
-          <MiddleDivider />
+        
           <ListItemButton>
             <ListItemText>About Us</ListItemText>
           </ListItemButton>
           <MiddleDivider />
+
+          <ListItemButton>
+            <ListItemText>Categories</ListItemText>
+          </ListItemButton>
+          <MiddleDivider />
+          
           <ListItemButton>
             <ListItemText>Contact Us</ListItemText>
           </ListItemButton>

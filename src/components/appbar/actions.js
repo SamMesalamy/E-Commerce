@@ -12,6 +12,7 @@ export default function Actions({ matches }) {
   return (
     <Component>
       <MyList type="row">
+      
         <ListItemButton
           sx={{
             justifyContent: "center",
@@ -24,7 +25,7 @@ export default function Actions({ matches }) {
               color: matches && Colors.secondary,
             }}
           >
-            <ShoppingCartIcon />
+            <FavoriteIcon />
           </ListItemIcon>
         </ListItemButton>
         <Divider orientation="vertical" flexItem />
@@ -40,7 +41,7 @@ export default function Actions({ matches }) {
               color: matches && Colors.secondary,
             }}
           >
-            <FavoriteIcon />
+            <ShoppingCartIcon />
           </ListItemIcon>
         </ListItemButton>
         <Divider orientation="vertical" flexItem />

@@ -26,7 +26,7 @@ export const AppbarHeader = styled(Typography)(() => ({
 
 export const ActionIconsContainerMobile = styled(Box)(() => ({
   display: 'flex',
-  background: Colors.shaft,
+  background: 'gray',
   position: "fixed",
   bottom: 0,
   left: 0,

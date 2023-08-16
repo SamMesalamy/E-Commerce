@@ -5,9 +5,9 @@ import { MessageText, PromotionsContainer } from "../../styles/promotions";
 import { Colors } from "../../styles/theme";
 
 const messages = [
-  "20% off on your first order!",
-  "Summer sale starts now, visit any store.",
-  "Please like and subscribe :)",
+  "Best shoes of the market",
+  "take 2 shoes, the 3rd one will be for",
+  "follow us to know our offers :)",
 ];
 export default function Promotions() {
   const containerRef = useRef();
@@ -18,11 +18,10 @@ export default function Promotions() {
               setShow(false);
             }, 3000);
     const intervalId = setInterval(() => {
-      // get next message
       setMessageIndex((i) => (i + 1) % messages.length);
 
-      // slide the message in
-        setShow(true);
+
+      setShow(true);
 
       setTimeout(() => {
         setShow(false);
@@ -34,6 +33,8 @@ export default function Promotions() {
     };
   }, []);
 
+
+
   return (
     <PromotionsContainer ref={containerRef} overflow="hidden">
       <Slide
@@ -41,7 +42,7 @@ export default function Promotions() {
         in={show}
         container={containerRef.current}
         timeout={{
-          enter: 500,
+          enter: 400,
           exit: 100,
         }}
       >

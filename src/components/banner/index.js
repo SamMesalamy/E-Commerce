@@ -27,7 +27,7 @@ export default function Banner() {
           tempor incididunt ut labore et dolore magna
         </BannerDescription>
 
-        <BannerShopButton color="primary">Check our Sales</BannerShopButton>
+        <BannerShopButton color="secondary" >Check our Sales</BannerShopButton>
       </BannerContent>
     </BannerContainer>
   );
